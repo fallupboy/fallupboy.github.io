@@ -150,12 +150,6 @@ body{
     flex-direction: column;
 	justify-content: center;
 	width: 100%;
-<<<<<<< HEAD
-=======
-	height: 100vh;
-	background: url(../images/bg2.jpg) center no-repeat;
-	background-size: cover;
->>>>>>> 919ba9aedf8b3b066c3a953f92a3d2f4c44cd0f8
 }
 
 .fam__title{
