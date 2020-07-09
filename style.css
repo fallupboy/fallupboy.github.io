@@ -6,10 +6,43 @@ body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	color: #141414;
+	background-image: url(../images/bg1.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+	background-size: cover;
+	font-size: 100%;
 }
 
-.container{
-	width: 100%;
+@media only screen and (max-width: 1025px){
+	body{
+		font-size: 80%;
+	}
+}
+
+@media only screen and (max-width: 769px){
+	body{
+		font-size: 60%;
+	}
+}
+
+@media only screen and (max-width: 426px){
+	body{
+		font-size: 40%;
+	}
+}
+
+@media only screen and (max-width: 376px){
+	body{
+		font-size: 25%;
+	}
+}
+
+.divider{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 /* Header */
@@ -27,8 +60,18 @@ body{
 
 /* Nav */
 .nav{
-	font-size: 18px;
+	font-size: 1.17em;
 	text-transform: uppercase;
+}
+
+.dslogo{
+	width: 3.125em;
+	height: 3.125em;
+}
+
+.youlogo{
+	width: 3.75em;
+	height: 2.813em;
 }
 
 .nav__link{
@@ -70,29 +113,17 @@ body{
 }
 
 /* Intro */
-#bgVideo{
-	position: absolute;
-	width: 100%;
-	z-index:-1;
-}
-
 .intro{
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	justify-content: center;
-	width: 100%;
 	height: 100vh;
+	width: 100%;
 }
 
-.intro__sign{
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-	overflow: visible;
-}
 
 .intro__title {
-	font-size: 80px;
+	font-size: 4.813em;
 	text-align: center;
 	color: #3333cc;
 	text-transform: uppercase;
@@ -102,29 +133,30 @@ body{
 
 .intro__suptitle{
 	font-family: 'Orbitron', sans-serif;
-	font-size: 30px;
+	font-size: 1.938em;
 	text-align: center;
 	text-transform: uppercase;
 	color: yellow;
 }
 
-/* 01 title */
+/* members title */
 .fam__composition{
+	background-image: url(../images/bg2.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+  	background-size: cover;
 	display: flex;
     flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	height: 100vh;
-	background: url(../SeriousProject/images/bg2.jpg) center no-repeat;
-	background-size: cover;
 }
 
 .fam__title{
 	font-family: 'Spectral', serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 45px;
-	margin: 0;
+	font-size: 2.813em;
 	color: #fff;
 	animation: neon .08s ease-in-out infinite alternate;
 }
@@ -134,7 +166,7 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 25px;
+	font-size: 1.563em;
 	color: #99ccff;
 	animation: neon .08s ease-in-out infinite alternate;
 }
@@ -144,24 +176,19 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 15;
+	font-size: 0.875em;
 	color: #99ccff;
 	animation: neon .08s ease-in-out infinite alternate;
 }
 
-/* 01 1/1, 1/4 */
-.oneFourth1{
-	width: 100%;
-	margin: .5%;
-}
-
+/* members 1/1, 1/4 */
 .oneFourth1 img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	width: 12%;
-	border: 3px solid gold;
+	border: 0.188em solid gold;
 	border-radius: 10%;
 }
 .oneFourth2{
@@ -175,33 +202,17 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	border: 3px solid silver;
+	border: 0.188em solid silver;
 	border-radius: 10%;
 }
 
-.sd__img{
-	width: 40%;
-}
-
-.bd__img{
-	width: 42%;
-}
-
-.td__img{
-	width: 38.5%;
-}
-
-.md__img{
-	width: 38.5%;
-}
-
-/* 01 members */
+/* members other */
 .memb__title{
 	font-family: 'Spectral', serif;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 40px;
+	font-size: 2.5em;
 	color: #99ccff;
 	animation: neon .08s ease-in-out infinite alternate;
 }
