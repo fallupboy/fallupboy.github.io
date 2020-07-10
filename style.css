@@ -6,11 +6,6 @@ body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	color: #141414;
-	background-image: url(../images/bg1.jpg);
-	background-position: center center;    
- 	background-repeat: no-repeat;    
-  	background-attachment: fixed;    
-	background-size: cover;
 	font-size: 100%;
 }
 
@@ -38,18 +33,19 @@ body{
 	}
 }
 
-.divider{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+/* Header */
+.top__block{
+	background-image: url(../images/bg1.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+	background-size: cover;
 }
 
-/* Header */
 .header{
 	position: absolute;
-	top: 15px;
-	right: 30px;
+	top: 0.938em;
+	right: 1.875em;
 }
 
 .header__inner{
@@ -62,6 +58,7 @@ body{
 .nav{
 	font-size: 1.17em;
 	text-transform: uppercase;
+	opacity: 0.8;
 }
 
 .dslogo{
@@ -77,7 +74,7 @@ body{
 .nav__link{
 	display: inline-block;
     vertical-align: middle;
-    margin: 0 15px;
+    margin: 0 0.938em;
     position: relative;
 
     color: yellow;
@@ -90,7 +87,7 @@ body{
     content: "";
     display: block;
     width: 100%;
-    height: 1.5px;
+    height: 0.094em;
 
     background-color: #0099ff;
     opacity: 0;
@@ -128,6 +125,7 @@ body{
 	color: #3333cc;
 	text-transform: uppercase;
 	font-family: 'Holtwood One SC', serif;
+	opacity: 0.9;
 	animation: neon .08s ease-in-out infinite alternate;
 }
 
@@ -136,12 +134,25 @@ body{
 	font-size: 1.938em;
 	text-align: center;
 	text-transform: uppercase;
+	opacity: 0.9;
 	color: yellow;
 }
 
 /* members title */
+.main__block{
+	background-image: url(../images/bg2.0.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+  	background-size: cover;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
 .fam__composition{
-	background-image: url(../images/bg2.jpg);
+	background-image: url(../images/bg2.1.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -168,7 +179,7 @@ body{
 	margin: 0;
 	font-size: 1.563em;
 	color: #99ccff;
-	animation: neon .08s ease-in-out infinite alternate;
+	opacity: 0.9;
 }
 
 .ptitle{
@@ -176,9 +187,10 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
-	font-size: 0.875em;
+	font-size: 1.15em;
 	color: #99ccff;
-	animation: neon .08s ease-in-out infinite alternate;
+	opacity: 0.9;
+
 }
 
 /* members 1/1, 1/4 */
@@ -186,10 +198,11 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 0.625em;
 	width: 12%;
 	border: 0.188em solid gold;
 	border-radius: 10%;
+	opacity: 0.8;
 }
 .oneFourth2{
 	width: 24%;
@@ -201,24 +214,138 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 0.625em;
 	border: 0.188em solid silver;
 	border-radius: 10%;
+	opacity: 0.8;
 }
 
 /* members other */
+.members{
+	background-image: url(../images/bg2.2.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-top: 10em;
+}
+
 .memb__title{
 	font-family: 'Spectral', serif;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 0;
-	font-size: 2.5em;
-	color: #99ccff;
+	font-size: 2.813em;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	color: tan;
 	animation: neon .08s ease-in-out infinite alternate;
 }
 
-.members{
+.memb__blocks{
+	margin-bottom: 5em;
+}
 
+.members p{
+	border-radius: 10%;
+	background: rgb(47, 47, 233);
+	opacity: 0.8;
+}
+
+.block4{
+	width: 24%;
+	float: left;
+	margin: .5%;
+}
+.block4 p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625em;
+}
+
+.block3{
+	width: 32%;
+	float: left;
+	margin: .5%;
+}
+
+.block3 p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625em;
+}
+
+.block2{
+	width: 49%;
+	float: left;
+	margin: .5%;
+}
+
+.block2 p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625em;
+}
+
+.memb__name{
+	font-family: 'Spectral', serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 1.8em;
+	color: tan;
+}
+
+/* Info */
+.info__main{
+	background-image: url(../images/bg2.3.jpg);
+	background-position: center center;    
+ 	background-repeat: no-repeat;    
+  	background-attachment: fixed;    
+	background-size: cover;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-top: 10em;
+}
+
+.info__title{
+	font-family: 'Spectral', serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.813em;
+	color: orangered;
+	animation: neon .08s ease-in-out infinite alternate;
+}
+
+.info__subtitle{
+	font-family: 'Spectral', serif;
+	text-align: center;
+	margin: 0;
+	font-size: 2.5em;
+	color: rgb(1, 79, 131);
+	margin-left: 1.125em;
+}
+
+.info__main p {
+	font-family: 'Spectral', serif;
+	font-size: 2em;
+	text-align: center;
+	color: tan;
+	margin: 0;
+	margin-bottom: 0.313em;
+	margin-left: 6.125em;
+	margin-right: 6.125em;
+	background: rgb(47, 47, 233);
+	border-radius: 40%;
+	opacity: 0.8;
 }
 
 /* Neon */
