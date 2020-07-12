@@ -35,7 +35,7 @@ body{
 
 /* Header */
 .top__block{
-	background-image: url(../images/bg1.jpg);
+	background-image: url(../SeriousProject/images/bg1.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -51,7 +51,6 @@ body{
 .header__inner{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 /* Nav */
@@ -69,6 +68,37 @@ body{
 .youlogo{
 	width: 3.75em;
 	height: 2.813em;
+}
+
+.youtube{
+	background: none;
+    color: white;
+	border: none;
+    cursor: pointer;
+}
+
+.youtube:hover{
+	background-color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(40, 44, 247);
+	border-radius: 5%;
+	opacity: 0.8;
+}
+.dropdown-child a {
+    color: white;
+    padding: 0.625em;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
 }
 
 .nav__link{
@@ -96,8 +126,6 @@ body{
     top: 100%;
     left: 0;
     z-index: 1;
-
-    transition: opacity 0.1s linear;
 }
 
 .nav__link:hover{
@@ -140,7 +168,7 @@ body{
 
 /* members title */
 .main__block{
-	background-image: url(../images/bg2.0.jpg);
+	background-image: url(../SeriousProject/images/bg2.0.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -152,7 +180,7 @@ body{
 }
 
 .fam__composition{
-	background-image: url(../images/bg2.1.jpg);
+	background-image: url(../SeriousProject/images/bg2.1.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -222,7 +250,7 @@ body{
 
 /* members other */
 .members{
-	background-image: url(../images/bg2.2.jpg);
+	background-image: url(../SeriousProject/images/bg2.2.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -304,7 +332,7 @@ body{
 
 /* Info */
 .info__main{
-	background-image: url(../images/bg2.3.jpg);
+	background-image: url(../SeriousProject/images/bg2.3.jpg);
 	background-position: center center;    
  	background-repeat: no-repeat;    
   	background-attachment: fixed;    
@@ -323,6 +351,7 @@ body{
 	font-size: 2.813em;
 	color: orangered;
 	animation: neon .08s ease-in-out infinite alternate;
+	margin-top: 1em;
 }
 
 .info__subtitle{
@@ -330,7 +359,7 @@ body{
 	text-align: center;
 	margin: 0;
 	font-size: 2.5em;
-	color: rgb(1, 79, 131);
+	color: rgb(216, 4, 216);
 	margin-left: 1.125em;
 }
 
@@ -346,6 +375,61 @@ body{
 	background: rgb(47, 47, 233);
 	border-radius: 40%;
 	opacity: 0.8;
+}
+
+.href__block{
+	width: 49%;
+	float: left;
+	margin: .5%;
+}
+
+.href__block p{
+	font-family: 'Spectral', serif;
+	font-size: 2em;
+	text-align: center;
+	color: rgb(238, 179, 103);
+	margin: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625em;
+	opacity: 0.9;
+}
+
+.href__block img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.625em;
+	opacity: 0.9;
+
+}
+
+.footer{
+	font-family: 'Spectral', serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgb(81, 81, 252);
+	margin: 0;
+
+}
+
+.topbutton {
+    width: 5.375em;
+    border: 0.125em solid #ccc;
+    background: rgb(47, 47, 233);
+	text-align: center;
+	text-decoration: none;
+    padding: 0.313em;
+	position: fixed;
+	opacity: 0.7;
+    bottom: 1.250em;
+    right: 3.125em;
+    cursor: pointer;
+    color: white;
+    font-family: verdana;
+    font-size: 0.750em;
+    border-radius: 0.313em;
 }
 
 /* Neon */
